@@ -1,0 +1,28 @@
+# JoinMessagePlugin configuration
+# Sử dụng mã màu với '&' và %player% để chèn tên người chơi.
+
+join-broadcast:
+  enabled: true
+  message: '&a[+] &e%player% &ađã tham gia máy chủ!'
+
+leave-broadcast:
+  enabled: true
+  message: '&c[-] &e%player% &cđã rời khỏi máy chủ.'
+
+welcome-title:
+  enabled: true
+  title: '&aChào mừng!'
+  subtitle: '&e%player% &avừa tham gia.'
+
+welcome-message:
+  enabled: true
+  lines:
+    - '&aChào mừng quay trở lại, &e%player%&a!'
+    - '&7Chúc bạn có những trải nghiệm tuyệt vời!'
+
+server-news:
+  enabled: true
+  lines:
+    - '&6★ &eTin tức mới nhất của máy chủ:'
+    - '&7- &fSử dụng &b/kit &fđể nhận quà mỗi ngày.'
+    - '&7- &fTham gia Discord: &bdiscord.gg/example'

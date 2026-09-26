@@ -1,0 +1,14 @@
+# plugin.yml
+name: Kayji-JoinMessage
+main: com.aefamily.joinmessage.JoinMessagePlugin
+version: 1.0.0
+api-version: 1.16
+author: Kayji_Tizi
+commands:
+  joinmessage:
+    description: Manage JoinMessagePlugin
+    usage: /<command> reload
+permissions:
+  joinmessage.reload:
+    description: Allows reloading the plugin configuration
+    default: op
